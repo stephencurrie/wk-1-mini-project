@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>This is my web site</title>
-</head>
-<body>
-    <p>Here</p>
-</body>
+  </head>
+  <body>
+    <!-- Header with Nav Links -->
+    <header id="header">
+      <h1>Stephen Currie's Website</h1>
+
+      <ul>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Porfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Section with image and a little about me -->
+
+    <section id="mainsection">
+      <h2>My New Website</h2>
+      <img id="comingsoon"
+      src="https://st.depositphotos.com/2885805/3842/v/600/depositphotos_38422667-stock-illustration-coming-soon-message-illuminated-with.jpg"
+      alt=""coming soon" />
+
+      <p>
+        This site probably took me entirely too long to build and there are
+        still several things in here I'm not sure why they work
+        <br />
+        <br />
+        And for that matter, there are serveral things in here that I can't get
+        to work.
+      </p>
+    </section>
+
+    <!-- Section with contact me form -->
+    <section id="footer">
+      <h3>Contact Me</h3>
+
+      <form id="form" action="/action_page.php">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
 </html>
